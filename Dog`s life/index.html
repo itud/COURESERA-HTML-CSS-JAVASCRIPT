@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It`s a dog`s life</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+		<!-- Link toexternal css or jscript -->	
+
+	<style type="text/css">
+
+		*{
+			box-sizing: border-box;
+		}
+		/*applying the style to all elements inside the Html page*/
+
+		h1{
+			text-align: center;
+			/*color: blue;*/
+		}
+
+		body {
+			margin-left: 200px;
+			margin-right:200px;
+			/*boxx-sizing borderbox ensures that all additional elements (border,padding together with the main content - are keptin the Width mentioned for the element)*/
+
+		}
+
+		table,th {
+			/*padding: 5px;*/
+			border: black 1px solid;
+			text-align: center;
+			background-color: grey;
+			}
+		table{
+			table-layout: fixed;
+			width: 100%;
+			}
+		th{
+			width: 25%;
+		}
+
+		th:hover, th:active{
+			background-color: #ff9966;
+		}	
+
+		a:link, a:visited {
+			text-decoration: none;
+			color: black;
+		} 
+	</style>
+</head>
+
+<body>
+	<header>
+<h1> Welcome to the dog`s life blog</h1>
+<br>
+</header>
+
+<table id=top>
+	<tr>
+	<th><a href="#top">Home</a></th>
+	<th><a href="#dogBreeds">Dog breeds</a></th>
+	<th><a href="#generalFacts">General funny facts</a></th>
+	<th><a href="#generalCare">Taking care of me!</a></th>
+	</tr>
+</table>
+
+<div id=dogBreeds>
+	<h2>Dog breeds</h2>
+	<br>
+
+	<p>Best known dog breeds</p>
+	<ol>
+		<li>Labrador Retriever</li>
+		<li>Poodle</li>
+		<li>Irish Setter</li>
+		<li>Vizsla</li>
+		<li>Newfoundland</li>
+		<li>Border Collie</li>
+	</ol>
+</div>
+<br>
+
+<div id=generalFacts>
+	<h2>General funny facts</h2>
+<br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget accumsan urna. Mauris ullamcorper purus leo, faucibus rhoncus mi pellentesque eu. Donec efficitur et felis id porta. Aenean vulputate egestas ante, sit amet vulputate felis cursus eu. Aenean eget metus quis justo condimentum aliquam nec id elit. Cras consectetur, nunc eu ultrices maximus, velit lacus commodo libero, eu consequat orci ipsum a metus. Vestibulum at posuere diam. Aenean eleifend dictum cursus. Nam feugiat sapien luctus odio consequat aliquam. Proin ut nisl at nibh ornare congue non et dui. Integer placerat tellus id orci viverra, et varius leo dignissim. Praesent non tellus sed mi iaculis volutpat. Sed lectus leo, finibus eu ipsum id, semper luctus enim</p>
+</div>
+<br>
+
+<div id=generalCare>
+	<h2>Taking care of me!</h2>
+<br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget accumsan urna. Mauris ullamcorper purus leo, faucibus rhoncus mi pellentesque eu. Donec efficitur et felis id porta. Aenean vulputate egestas ante, sit amet vulputate felis cursus eu. Aenean eget metus quis justo condimentum aliquam nec id elit. Cras consectetur, nunc eu ultrices maximus, velit lacus commodo libero, eu consequat orci ipsum a metus. Vestibulum at posuere diam. Aenean eleifend dictum cursus. Nam feugiat sapien luctus odio consequat aliquam. Proin ut nisl at nibh ornare congue non et dui. Integer placerat tellus id orci viverra, et varius leo dignissim. Praesent non tellus sed mi iaculis volutpat. Sed lectus leo, finibus eu ipsum id, semper luctus enim</p>
+</div>
+<br>
+
+<footer>
+	Footer info
+
+</footer>
+</body>
+</html>

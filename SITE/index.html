@@ -3,6 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hello Page</title>
+	
+	<style type="text/css">
+		
+	h1 {
+
+		color: red;
+	}
+
+	a:link, a:visited {
+		text-decoration: none;
+		color: black;
+		display: block; 
+		border: 1px solid red;
+		background-color:#ff9966;
+		width: 200px;
+		}
+		/* Custimising a list of links to be displayed as a list of buttons*/
+
+		a:hover a:active {
+		background-color: green;
+		}
+		/*Pseudo-class selector - making more evident a selected item in the list */
+
+		div ol:nth-child(3){
+			color:green;
+		}
+		/*Pseudo-class selector - trying to customise the third element in a list */
+
+	</style>
 </head>
 <body>
 	
@@ -10,9 +39,11 @@
 
 	<h1 id="header">Inovation in the world</h1>
 	<br>
+	<p>Your area of interest</p>
 	<a href="#SECTION1">Tags revolution</a><br>
-	<a href="#SECTION2">USing Entity references</a><br>
+	<a href="#SECTION2">Using Entity references</a><br>
 	<a href="#SECTION3">Petite cours de français</a><br>
+	<a href="#menuRestaurant">Menu Restaurant</a><br>
 	<a href="#bottom">Go to bottom</a>
 		
 		</header>
@@ -55,14 +86,23 @@
 			<hr>
 
 			<SECTION>
-				<h2 is="SECTION3">Petite cours de français</h2>
+				<h2 id="SECTION3">Petite cours de français</h2>
 							<div>
 								<a href="file:///C:/COURESERA-HTML-CSS-JAVASCRIPT/SITE/Resources/Cours%20de%20fran%C3%A7ais.pdf" title="Cours de Francais">Vous pouvez vos encriers à ce petit cours de français</a>
 								<a href="https://manuelsanciens.blogspot.com/2013/06/1-la-rentree.html?m=1" target="_blank"><div> Petite livre en francais</div></a>
 								<img src="Resources/Activite- francais loisirs-et-activites-1-1024.jpg" width="600" heigh ="400" alt="Des activite de lesoir en francais">
 							</div>
 			</SECTION>
-
+			<section>
+				<DIV id="menuRestaurant">
+					<p >Restaurant menu</p>
+				<ol>
+					<li>Coffe</li>
+					<li>Tea</li>
+					<li>Cake</li>
+				</ol>
+				</DIV>
+			</section>
 
 
 <br><a href="#header">Go to top</a>
