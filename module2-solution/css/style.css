@@ -1,0 +1,114 @@
+/***** General Applicable *****/
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	}
+
+h1 {
+	text-align: center;
+	margin: 15px;
+	
+}
+
+div {
+	border:1px solid;
+	height: 200px;
+	overflow:auto;
+	position: relative;
+	}
+
+/* setting the style for the section titles */
+
+p.title{
+	width: 120px;
+	border:1px solid;
+	/*float:right;*/
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	margin-bottom: 5px;
+	position:relative;
+	top: 0px;
+	left:calc(100% - 120px);
+	
+}
+
+/* setting the style for the text itself */
+p {
+	padding:10px;
+	clear: both; /*as I`ve used floating for the section title I need the text to be displayed lower as the section title*/
+	}
+
+/* setting colors for the section titles*/
+#menuItem1 .title {
+	background-color: #ffffa9;
+}
+
+#menuItem2 .title  {
+	background-color: #d4ffa9;
+}
+
+#menuItem3 .title  {
+	background-color: #ffd4a9;
+}
+
+/* setting colors for the section background*/
+
+#menuItem1 {
+	background-color: #8fb1ff;
+}
+
+#menuItem2 {
+	background-color: #a58fff;
+}
+
+#menuItem3 {
+	background-color: #8fe9ff;
+}
+
+/***** Style for Large Device View*****/
+@media(min-width: 992px){
+
+div {
+	width:calc(33% - 30px);
+	float: left;
+	margin: 15px;
+	}
+
+}
+
+/***** Style for Tablet View *****/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+div{
+	width: calc(50% - 30px);
+	float: left;
+	margin: 15px;
+	overflow:auto;
+	}
+
+div#menuItem3 {
+	width: calc(100% - 30px);
+	clear:both;
+	margin: 15px;
+	}
+}
+
+
+/***** Style for Mobile View *****/
+
+@media (max-width: 767px){
+
+	div{
+	width: calc(100% - 30px);
+	clear: both;
+	float: left;
+	margin: 15px;
+	}
+
+}
