@@ -1,0 +1,64 @@
+body{
+	font-size:14px;
+	color:blue;
+	background-color:#EBEBD3;
+}
+
+.container{
+  margin: 0;
+}
+
+#header-nav{
+	background-color: #F4D35E;
+	border-radius: 0;
+	border:0; 
+}
+
+/*Brand*/
+
+.navbar-brand h1 {
+color:blue;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none; 
+}
+
+
+
+
+/*Menu list*/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: blue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+.navbar-header button.navbar-toggle{
+  border: 1px solid blue;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+#main_container{
+  color: black;
+  height: 1000px;
+  background-color: grey;
+  margin: 15px;
+}
